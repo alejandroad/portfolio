@@ -1,0 +1,38 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Alejandro's developer portfolio. Personal website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier - write .",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alejandroad/portfolio.git"
+  },
+  "keywords": [],
+  "author": "Alejandro Arias Diaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alejandroad/portfolio/issues"
+  },
+  "homepage": "https://github.com/alejandroad/portfolio#readme",
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.4",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.0.2",
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-next": "^13.1.1",
+    "prettier": "^2.8.1"
+  }
+}
